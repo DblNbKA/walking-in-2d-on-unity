@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.W)) 
         {
             rb.velocity += Vector2.up * Speed;
-            }
+        }
         if (Input.GetKey(KeyCode.S)) 
         {
             rb.velocity += Vector2.down * Speed;
